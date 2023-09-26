@@ -1,0 +1,224 @@
+body {
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+}
+.section {
+    padding: 120px 0;
+}
+h1, h2, h3, p, ul {
+    margin: 0;
+}
+img {
+    display: block;
+}
+ul {
+    padding-left: 0;
+}
+header {
+   border-bottom: 1px solid #E7E9FC;
+}
+.container{
+    width: 1158px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+
+.top-line > .container {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-right: 76px;
+    
+}
+.logo-studio {
+    color: #2e2f42;
+}
+ul {
+    list-style-type: none;
+}
+.nav-menu {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.nav-menu:hover, .nav-menu:focus {
+    color: #404bbf;
+    }
+address {
+    font-style: normal;
+}
+.contacts {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+   
+}
+.contact {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact:hover, .contact:focus {
+    color: #404bbf;
+}
+.nav-menu, .address {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.hero-image {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
+}
+.slogan {
+    font-size: 56px;
+    line-height: 1.07;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;      
+}
+.button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: 48px auto 0;
+}
+.button:hover, .button:focus {
+    background-color: #404bbf;
+}
+
+.features {
+    display: flex;
+    gap: 24px
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.feature {
+    width: calc((100% - 72px)/4);
+}
+.benefit, .team-member-name, .project-card {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.description, .specialty, .type-of-project {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-section {
+    background-color: #f4f4fd;
+    text-align: center;
+}
+.team-section > .container, .portfolio-sec > .container{
+    text-align: center;
+}
+.title-sec {
+    font-size: 36px;
+    line-height: 1.11;
+    
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.team-list, .portfolio-list {
+    
+    display: flex;
+    gap: 24px;
+    text-align: center;
+}
+.name-and-spec {
+    padding: 32px 0;
+}
+.team-member-name, .specialty {
+    text-align: center;
+}
+ 
+.team-mem {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.portfolio-list {
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+.portfolio-discribe {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.porfolio-element{
+    width: calc((100%-48px)/3);
+    margin: auto;
+}
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.footer-logo {
+    margin: 0 0 16px 0;
+
+}
+.footer-parag {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    width: 264px;
+   
+}
+.footer-logo-studio {
+    color: #f4f4fd;
+}
