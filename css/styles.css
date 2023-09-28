@@ -236,6 +236,8 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .social-link:hover, .social-link:focus {
     background-color: #404bbf;
@@ -244,7 +246,6 @@ address {
     position: relative;
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
     fill: #F4F4FD;
@@ -257,7 +258,6 @@ address {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
     text-align: left;
 }
 .portfolio-element{
@@ -267,7 +267,10 @@ address {
 }
 .portfolio-element:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-element:hover .image-text{
     transform: translateY(0%);
+
 }
 .image-box {
     position: relative;
@@ -286,7 +289,7 @@ address {
     width: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 .footer{
     background-color: #2e2f42;
@@ -294,7 +297,10 @@ address {
 }
 .footer > .container {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+.footer > .container > div {
+    margin-right: 120px;
 }
 .footer-logo {
     margin: 0 0 16px 0;
@@ -318,4 +324,7 @@ address {
     letter-spacing: 0.32px;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+.social-media-box > .social-box {
+    gap: 16px;
 }
