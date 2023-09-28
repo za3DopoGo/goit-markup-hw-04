@@ -92,6 +92,9 @@ address {
     background-color: #2e2f42;
     text-align: center;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .slogan {
     font-size: 56px;
@@ -143,6 +146,15 @@ address {
 .feature {
     width: calc((100% - 72px)/4);
 }
+.ben-box {
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .benefit, .team-member-name, .project-card {
     font-weight: 500;
     font-size: 20px;
@@ -179,6 +191,7 @@ address {
 }
 .name-and-spec {
     padding: 32px 0;
+
 }
 .team-member-name, .specialty {
     text-align: center;
@@ -188,7 +201,27 @@ address {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
-
+.social-box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+.social-circle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+.social-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    fill: #F4F4FD;
+}
 .portfolio-list {
     flex-wrap: wrap;
     row-gap: 48px;
@@ -208,6 +241,10 @@ address {
     background-color: #2e2f42;
     padding: 100px 0;
 }
+.footer > .container {
+    display: flex;
+    gap: 120px;
+}
 .footer-logo {
     margin: 0 0 16px 0;
 
@@ -221,4 +258,13 @@ address {
 }
 .footer-logo-studio {
     color: #f4f4fd;
+}
+.footer-social-media {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
