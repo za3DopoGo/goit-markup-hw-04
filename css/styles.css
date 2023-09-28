@@ -109,7 +109,7 @@ address {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
 }
 .slogan {
@@ -164,9 +164,12 @@ address {
     width: calc((100% - 72px)/4);
 }
 .ben-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     width: 100%;
     padding: 24px 0;
-    text-align: center;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
