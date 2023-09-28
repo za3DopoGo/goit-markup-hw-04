@@ -328,3 +328,7 @@ address {
 .social-media-box > .social-box {
     gap: 16px;
 }
+.social-media-box > .social-box > .social-circle > .social-link:hover,
+.social-media-box > .social-box > .social-circle > .social-link:focus {
+    background-color: #31d0aa;
+}
